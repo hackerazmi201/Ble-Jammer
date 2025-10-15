@@ -108,7 +108,7 @@ Ble-jammer is a hardware-based BLE interference/testing toolkit that uses an ESP
 
 # wiring 
 
-<img src"img/wiring.jpeg"/>
+<img src="img/wiring.jpeg"/>
 
 -----
 
@@ -142,6 +142,7 @@ Ble-jammer is a hardware-based BLE interference/testing toolkit that uses an ESP
 
 <ul> plug a usb to esp32 and with 5V power supply like Power bank </ul>
 <ul>on your phone bluetooth and connect with speaker and play a song and then supply a power to esp32 and they boom</ul>
+<img src="img/unnamed.jpg" height"100" />
 
 ## You make an jammer 
 
