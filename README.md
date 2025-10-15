@@ -104,3 +104,53 @@ Ble-jammer is a hardware-based BLE interference/testing toolkit that uses an ESP
 <ul>Go to this site https://esp32-bluejammerflasher.pages.dev/ and then connect your esp32 and they show your esp32 then click on it, when installing make sure click and hold the boot button on your esp32 </ul>
 <ul> its may take few minutes and its done next step is wiring  </ul>
 
+-----
+
+# wiring 
+
+<img src"img/wiring.jpeg"/>
+
+-----
+
+### HSPI
+| 1st nRF24L01 module Pin | HSPI Pin (ESP32) | 10uf capacitor |
+|---------------|------------------|--------------------|
+| VCC           | 3.3V             | (+) capacitor |
+| GND           | GND              | (-) capacitor |
+| CE            | GPIO 16          |
+| CSN           | GPIO 15          |
+| SCK           | GPIO 14          |
+| MOSI          | GPIO 13          |
+| MISO          | GPIO 12          |
+| IRQ           |                  |
+
+### VSPI 
+| 2nd nRF24L01 module Pin | VSPI Pin (ESP32) | 10uf capacitor |
+|---------------|------------------|--------------------|
+| VCC           | 3.3V             | (+) capacitor |
+| GND           | GND              | (-) capacitor |
+| CE            | GPIO 22          |
+| CSN           | GPIO 21          |
+| SCK           | GPIO 18          |
+| MOSI          | GPIO 23          |
+| MISO          | GPIO 19          |
+| IRQ           |                  |
+
+-----
+
+# final step Testing
+
+<ul> plug a usb to esp32 and with 5V power supply like Power bank </ul>
+<ul>on your phone bluetooth and connect with speaker and play a song and then supply a power to esp32 and they boom</ul>
+
+## You make an jammer 
+
+**Note**
+
+Jamming is ban in india this is only for educationpurpose dont test any where with permission and dont harm any one this practical is word under the cyber law i did't harm any one and not use any where This only for learning new thing  And i am not responsible for your action
+
+# Thank you 
+
+
+
+
